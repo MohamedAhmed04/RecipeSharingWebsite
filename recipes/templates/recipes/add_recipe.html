@@ -1,0 +1,14 @@
+<!-- recipes/templates/recipes/add_recipe.html -->
+{% extends "recipes/base.html" %}
+{% load static %}
+
+{% block title %}Add Recipe - Recipe Sharing{% endblock %}
+
+{% block content %}
+<h1>Add a New Recipe</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-success">Submit Recipe</button>
+</form>
+{% endblock %}

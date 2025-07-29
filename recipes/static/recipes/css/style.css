@@ -1,0 +1,17 @@
+/* recipes/static/recipes/css/style.css */
+body {
+    background-color: #f8f9fa;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+h1, h2, h4 {
+    color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
